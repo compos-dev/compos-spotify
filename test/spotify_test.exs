@@ -1,4 +1,4 @@
-defmodule Aimax.SpotifyTest do
+defmodule Compos.SpotifyTest do
   @moduledoc """
   The player is a tab. These tests hold the wire, not Chrome: they assert the
   ops the commands put on it, and answer the way the extension would.
@@ -6,7 +6,7 @@ defmodule Aimax.SpotifyTest do
 
   use ExUnit.Case
 
-  alias Aimax.Core.{Browser, KeyDispatch, Session}
+  alias Compos.Core.{Browser, KeyDispatch, Session}
 
   defp press(keys), do: Enum.each(List.wrap(keys), &KeyDispatch.handle_key/1)
 

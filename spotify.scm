@@ -1,6 +1,6 @@
 ;;; spotify.scm --- the web player is a tab, and this is its remote control.
 ;;;
-;;; The music plays in Chrome, where it already knows who you are. ai-max
+;;; The music plays in Chrome, where it already knows who you are. compos
 ;;; does not play it and does not proxy it: it finds the tab and presses the
 ;;; buttons. chrome.scm supplies the wire (tab-list, tab-eval, tab-open), so
 ;;; this file is policy only — no new Elixir, no API keys, no OAuth.
