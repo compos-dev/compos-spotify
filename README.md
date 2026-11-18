@@ -21,3 +21,5 @@ Then `M-x spotify`. `M-x package-freeze` pins the commit in `packages.lock`.
 - `test/spotify_test.exs` - the ExUnit test from the compos tree; it runs inside a compos checkout
 
 The history before the split is the history of these files in the compos repo.
+
+Changes: send them upstream from compos with `(package-pr 'spotify "what changed")`.
